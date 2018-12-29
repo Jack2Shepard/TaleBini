@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TaleBini</string>
+    <string name="welcome_textview"> طالع بینی </string>
+    <string name="info_text_view">مشخصات خود را وارد کنید</string>
+    <string name="fname_edit_text">نام ...</string>
+    <string name="lname_edit_text">نام خانوادگی ...</string>
+    <string name="register_btn_text">کلیک کن اگه آماده ای!</string>
+    <string name="pick_Bday_btn">انتخاب تاریخ تولد</string>
+    <string name="female_text_view">خانم</string>
+    <string name="male_text_view">آقا</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="which_one_tv">کدوم هستی؟</string>
+    <string name="app_title_tv">طالع بینی</string>
+</resources>

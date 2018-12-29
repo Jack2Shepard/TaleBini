@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    tools:context=".ThirdActivity">
+
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/toolbar"
+        style="@style/ToolbarTheme"
+        >
+    </include>
+
+    <RelativeLayout
+        android:background="@drawable/edittext_frame"
+        android:id="@+id/show_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar">
+
+        <TextView
+            android:id="@+id/zodiac_Sign_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/zodiac_Icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/zodiac_Sign_Text"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_marginTop="5dp"
+        android:id="@+id/months_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/show_year"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="1dp">
+    </ListView>
+
+</RelativeLayout>
